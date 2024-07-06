@@ -1,0 +1,60 @@
+VertexLitGeneric
+{
+	$basetexture "console/player/ghostface/xmaterial_33d5ee125859936"
+	$bumpmap "console/player/ghostface/xmaterial_33d5ee125859936_n"
+
+	$lightwarptexture "models/player/pyro/pyro_lightwarp"
+
+	$detail "effects/tiledfire/firelayeredslowtiled512"
+	$detailblendmode 6
+	$detailscale 5
+	$detailblendfactor 0.01
+
+	$phong 1
+	$phongexponenttexture "models/alyx/alyx_sheet_exponent"
+	$phongfresnelranges "[0.05 1 8]"
+	$halflambert 1
+	$phongboost 0.3
+
+	$rimlight 1
+	$rimlightexponent 4
+	$rimlightboost 2
+
+	$cloakpassenabled 1
+	$one 1
+	$yellow 0
+
+	Proxies
+	{
+		spy_invis
+		{
+		}
+
+		invis
+		{
+		}
+
+		AnimatedTexture
+		{
+			animatedtexturevar "$detail"
+			animatedtextureframenumvar "$detailframe"
+			animatedtextureframerate 30
+		}
+
+		BurnLevel
+		{
+			resultVar "$detailblendfactor"
+		}
+
+		YellowLevel
+		{
+			resultVar "$yellow"
+		}
+
+		Equals
+		{
+			srcVar1 "$yellow"
+			resultVar "$color2"
+		}
+	}
+}

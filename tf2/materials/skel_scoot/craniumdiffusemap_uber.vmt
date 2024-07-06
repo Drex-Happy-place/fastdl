@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/custom/player/skel_scoot/CraniumDiffuseMap_uber_red"
+	"$bumpmap" "models/custom/player/skel_scoot/bonenorm"
+	"$bumpmap2" "models/custom/player/skel_scoot/CraniumNormalMap"
+	"$translucent" 1
+}

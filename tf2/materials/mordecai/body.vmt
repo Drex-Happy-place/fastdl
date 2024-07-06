@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/borderlands2/mordecai/body"
+	"$bumpmap" "models/borderlands2/mordecai/body_n"
+
+	"$model" "1"
+	"$phong" "1"
+	"$phongexponent" "12"
+	"$phongboost" "0.2"
+	"$phongalbedotint" "1"
+	"$phongtint" "[1 .95 .95]"
+	"$phongfresnelranges"	"[0.5 6 10]"
+}
